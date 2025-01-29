@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СпецТехАренда</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <header>
+            <div class="logomenu">
+                <img src="logo.png" class="logo">
+                <h1>СпецТехАренда</h1>
+            </div>
+            <ul class="link_buttons">
+                <li class="link_button">
+                    <a href="about us.html">О нас</a>
+                </li>
+                <li class="link_button">
+                    <a href="catalog.html">Каталог спецтехники</a>
+                </li>
+                <li class="link_button">
+                    <a href="condition.html">Условия арнеды</a>
+                </li>
+                <li class="link_button">
+                    <a href="where to find.html">Где найти?</a>
+                </li>
+            </ul>
+            <div class="link_button alt">
+                <a href="register.html" >Вход</a>
+            </div>
+        </header>
+        <main>
+            <nav>
+
+            </nav>
+            <div class="content">
+                <div class="block">
+                    <div class="block hide">
+                        <div>
+                            <h2>Гусеничный экскаватор «Solar 225 NLC-V»</h2>
+                            <p>Масса 21 000 кг</p>
+                            <p>Объем ковша 1.02 м3</p>
+                            <p>Глубина копания 5.7 м</p>
+                            <p>Мощность двигателя 148 л.с</p>
+                            <h3>Цена за час: 2 250 ₽</h3>
+                            <div>
+                                <form action="arenda_process.php" method="POST">
+                                    <div class="formgroup">
+                                        <label for="text">Длительность аренды в часах</label>
+                                        <input type="text" id="text" name="text" required pattern="^[0-9]" title="Укажите длительность аренды">
+                                    </div>
+                                    <div class="formgroup">
+                                        <h2>Итого:0000₽</h2>
+                                    </div>
+                                    <button type="submit">Арендовать</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="catalog/Гусеничные экскаваторы/1.1/Sollar-225.jpg" class="image">
+                </div>
+            </div>
+            <aside>
+
+            </aside>
+        </main>
+        <footer>
+            <div>
+                <p>OOO.СпецТехАренда 2023-2025</p>
+                <div>
+                    <p>Телефон: +7-916-876-0645</p>
+                    <p>Почта: info@spec-tex.ru</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

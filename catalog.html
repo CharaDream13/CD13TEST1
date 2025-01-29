@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СпецТехАренда</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <header>
+            <div class="logomenu">
+                <img src="logo.png" class="logo">
+                <h1>СпецТехАренда</h1>
+            </div>
+            <ul class="link_buttons">
+                <li class="link_button">
+                    <a href="about us.html">О нас</a>
+                </li>
+                <li class="link_button">
+                    <a href="catalog.html">Каталог спецтехники</a>
+                </li>
+                <li class="link_button">
+                    <a href="condition.html">Условия арнеды</a>
+                </li>
+                <li class="link_button">
+                    <a href="where to find.html">Где найти?</a>
+                </li>
+            </ul>
+            <div class="link_button alt">
+                <a href="register.html" >Вход</a>
+            </div>
+        </header>
+        <main>
+            <nav>
+
+            </nav>
+            <div class="content">
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="media/IMG_6404.webp">
+                        </div>
+                        <div class="slide">
+                            <img src="media/IMG_6405.webp">
+                        </div>
+                        <div class="slide">
+                            <img src="media/IMG_6406.webp">
+                        </div>
+                        <div class="slide">
+                            <img src="media/-1.webp">
+                        </div>
+                    </div>
+                </div>
+                <nav class="info block">
+                        <form id="filter">
+                          <div class="block">
+                            <label for="type">Тип экскаватора</label>
+                            <select id="type" name="type">
+                              <option value="gusenichnye">Гусеничные экскаваторы</option>
+                              <option value="kolesnye">Колесные экскаваторы</option>
+                              <option value="mini">Мини экскаваторы</option>
+                              <option value="pogruzchiki">Экскаваторы-погрузчики</option>
+                            </select>
+                          </div>
+                          <div class="block">
+                            <label for="sort">Упорядочить экскаваторы по:</label>
+                            <select id="sort" name="sort">
+                              <option value="priceasc">Цене (по возрастанию)</option>
+                              <option value="pricedesc">Цене (по убыванию)</option>
+                              <option value="bucketvolumeasc">Объему ковша (по возрастанию)</option>
+                              <option value="bucketvolumedesc">Объему ковша (по убыванию)</option>
+                              <option value="digdepthasc">Глубине копания (по возрастанию)</option>
+                              <option value="digdepthdesc">Глубине копания (по убыванию)</option>
+                            </select>
+                          </div>
+                          <button type="submit" class="more">Поиск</button>
+                        </form>
+                </nav>
+                <div class="catalog">
+                    <article>
+                        <h2>Гусеничный экскаватор «Solar 225 NLC-V»</h2>
+                        <img src="catalog/Гусеничные экскаваторы/1.1/Sollar-225.jpg" class="image">
+                        <div class="block hide">
+                            <div>
+                                <p>Цена за час: 2 250 ₽</p>
+                                <p>Марка: Solar</p>
+                                <p>Модель: NLC-V</p>
+                            </div>
+                            <a href="rent.html" class="more">Забронировать</a>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>Гусеничный экскаватор «JCB JS 220 LC»</h2>
+                        <img src="catalog/Гусеничные экскаваторы/1.2/gusenichnyj-ekskavator-jcb-js-220-lc.jpg" class="image">
+                        <div class="block hide">
+                            <div>
+                                <p>Цена за час: 2 250 ₽</p>
+                                <p>Марка: JCB</p>
+                                <p>Модель: S 220 LC</p>
+                            </div>
+                            <a href="" class="more">Забронировать</a>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>Колесный экскаватор «Tvex 140W»</h2>
+                        <img src="catalog/Колесные экскаваторы/2.1/15.png" class="image">
+                        <div class="block hide">
+                            <div>
+                                <p>Цена за час: 2 125 ₽</p>
+                                <p>Марка: Tvex</p>
+                                <p>Модель: 140W</p>
+                            </div>
+                            <a href="" class="more">Забронировать</a>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>Колесный экскаватор «Volvo EW140D»</h2>
+                        <img src="catalog/Колесные экскаваторы/2.2/22.jpg" class="image">
+                        <div class="block hide">
+                            <div>
+                                <p>Цена за час: 2 125 ₽</p>
+                                <p>Марка: Volvo</p>
+                                <p>Модель: EW140D</p>
+                            </div>
+                            <a href="" class="more">Забронировать</a>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>Мини-экскаватор «Hyundai R60W-9S» </h2>
+                        <img src="catalog/Мини экскаваторы/3.1/14.png" class="image">
+                        <div class="block hide">
+                            <div>
+                                <p>Цена за час: 1 225 ₽</p>
+                                <p>Марка: Hyundai</p>
+                                <p>Модель: R60W-9S</p>
+                            </div>
+                            <a href="" class="more">Забронировать</a>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>Экскаватор-погрузчик «JCB 3CX Super»</h2>
+                        <img src="catalog/Экскаваторы-погрузчики/4.2/ekskavator-pogruzchik-jcb-3cx-super.jpg" class="image">
+                        <div class="block hide">
+                            <div>
+                                <p>Цена за час: 2 125 ₽</p>
+                                <p>Марка: JCB</p>
+                                <p>Модель: 3CX Super</p>
+                            </div>
+                            <a href="" class="more">Забронировать</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <aside>
+
+            </aside>
+        </main>
+        <footer>
+            <div>
+                <p>OOO.СпецТехАренда 2023-2025</p>
+                <div>
+                    <p>Телефон: +7-916-876-0645</p>
+                    <p>Почта: info@spec-tex.ru</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

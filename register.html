@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СпецТехАренда</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <header>
+            <div class="logomenu">
+                <img src="logo.png" class="logo">
+                <h1>СпецТехАренда</h1>
+            </div>
+            <ul class="link_buttons">
+                <li class="link_button">
+                    <a href="about us.html">О нас</a>
+                </li>
+                <li class="link_button">
+                    <a href="catalog.html">Каталог спецтехники</a>
+                </li>
+                <li class="link_button">
+                    <a href="condition.html">Условия арнеды</a>
+                </li>
+                <li class="link_button">
+                    <a href="where to find.html">Где найти?</a>
+                </li>
+            </ul>
+            <div class="link_button alt">
+                <a href="register.html" >Вход</a>
+            </div>
+        </header>
+        <main>
+            <nav>
+
+            </nav>
+            <div class="content">
+                <div class="block">
+                    <img src="media/gusyanka.png" class="image">
+                    <div>
+                        <form action="register_process.php" method="POST">
+                            <h2>Регистрация</h2>
+                            <div class="formgroup">
+                                <label for="name">Имя</label>
+                                <input type="text" id="name" name="name" required pattern="^[А-Яа-яёЁ\s\-]+$" title="Только кириллица, пробелы и тире">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="surname">Фамилия</label>
+                                <input type="text" id="surname" name="surname" required pattern="^[А-Яа-яёЁ\s\-]+$" title="Только кириллица, пробелы и тире">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="patronymic">Отчество</label>
+                                <input type="text" id="patronymic" name="patronymic" pattern="^[А-Яа-яёЁ\s\-]*$" title="Только кириллица, пробелы и тире">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="login">Логин</label>
+                                <input type="text" id="login" name="login" required pattern="^[A-Za-z0-9\s\-]+$" title="Только латиница, цифры, пробелы и тире">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="email">Электронная почта</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="tel">Телефон</label>
+                                <input type="tel" id="tel" name="tel" required pattern="^\+?[0-9]{11,12}$" title="Телефон должен быть не менее 11 и не более 12 символов">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="password">Пароль</label>
+                                <input type="password" id="password" name="password" required minlength="6">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="password_repeat">Подтвердите пароль</label>
+                                <input type="password" id="password_repeat" name="password_repeat" required minlength="6">
+                            </div>
+            
+                            <div class="formgroup">
+                                <label for="rules" class="rules">
+                                    <input type="checkbox" id="rules" name="rules" required>
+                                    Согласен с <a href="">условиями регистрации</a>
+                                </label>
+                                <button type="submit">Зарегистрироваться</button>
+                            </div>
+            
+                        </form>
+                    </div>
+                </div>
+                <div class="block">
+                    <div>
+                        <form action="/your-server-endpoint" method="post">
+                            <h2>Вход</h2>
+                            <div class="formgroup">
+                                <label for="login">Логин</label>
+                                <input type="text" name="username" required>
+                            </div>
+                            <div class="formgroup">
+                                <label for="password">Пароль</label>
+                                <input type="password" name="password" required>
+                            </div>
+                                <button type="submit">Войти</button>
+                        </form>
+                    </div>
+                    <img src="media/front_pogruz3.png" class="image">
+                </div>
+            </div>
+            <aside>
+
+            </aside>
+        </main>
+        <footer>
+            <div>
+                <p>OOO.СпецТехАренда 2023-2025</p>
+                <div>
+                    <p>Телефон: +7-916-876-0645</p>
+                    <p>Почта: info@spec-tex.ru</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
